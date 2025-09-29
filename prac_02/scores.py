@@ -15,6 +15,7 @@ Program to determine score status
 import random
 
 def main():
+    """Program to calculate result input"""
     score = float(input("Enter score: "))
     print(calculate_result(score))
 
@@ -23,6 +24,7 @@ def main():
     print(calculate_result(random_score))
 
 def calculate_result(score):
+    """Calculate result"""
     if score < 0 or score > 100:
         return "Invalid score"
     elif score >= 90:
