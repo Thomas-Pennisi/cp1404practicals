@@ -20,7 +20,7 @@ with open("numbers.txt", "r") as in_file:
 print(number1 + number2)
 
 total = 0
-with open("number.txt", "r") as in_file:
+with open("numbers.txt", "r") as in_file:
     for line in in_file:
         number = int(line)
         total += number
